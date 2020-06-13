@@ -7,7 +7,7 @@
       "styling": {
         "primaryColor": "#5263b8",
         "secondaryColor": "#5682a4",
-        "successColor": "#d26c38",
+        "successColor": "#ae3d3d",
         "infoColor": "#2b3d68",
         "warningColor": "#1a214a",
         "dangerColor": "#efefef",
@@ -29,13 +29,13 @@
       "titlePreset": "SEO Agency",
       "nameSelectPreset": "seoagency",
       "additionalSetColors": [
+        "#ae3d3d",
         "#28505a",
         "#212c3e",
         "#5682a4",
         "#686262",
         "#2b3d68",
-        "#4da92e",
-        "#149dcc"
+        "#4da92e"
       ]
     },
     "path": "@PROJECT_PATH@",
@@ -93,7 +93,7 @@
         "url": "https://fonts.googleapis.com/css?family=Josefin+Sans:100,200,300,400,500,600,700,100i,200i,300i,400i,500i,600i,700i"
       }
     ],
-    "uniqCompNum": 49,
+    "uniqCompNum": 52,
     "versionPublish": "4.11.5",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/nola-concrete-pumping-rentals-louisiana.png",
@@ -236,7 +236,7 @@
             }
           },
           "_name": "header03",
-          "_customHTML": "<section class=\"header3\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"5\" max=\"10\" step=\"1\" value=\"10\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Link\" name=\"showLink\" checked>\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\" checked>\n        <input type=\"color\" title=\"Icons Color\" name=\"iconsColor\" value=\"#2b3d68\" selected condition=\"showIcons\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#f1eeea\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container-fluid\">\n        <div class=\"row\">\n            <div class=\"col-lg-5 m-auto content md-pb\">\n\n                <h1 class=\"mbr-section-title align-left mbr-bold pb-4 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">NOLA<br>Concrete Pumping</h1>\n\n                <p class=\"mbr-text pb-4 align-left mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                    NOLA Concrete Pumping provides customers with the most experienced operators in the industry and safe, well-maintained equipment. We are also proud of our long list of satisfied customers</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-lg btn-info\" href=\"tel:+1-985-308-0141\" data-app-placeholder=\"Type Text\">CALL (985) 308-0141</a></div>\n            </div>\n            <div class=\"col-lg-7\">\n                <div class=\"wrapper\">\n                    <h2 class=\"link title align-center mbr-black mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showLink\">&nbsp;RENTALS</h2>\n                    <a href=\"https://nola-concrete-pumping-llc.business.site/\" target=\"_blank\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-google socicon\" mbr-if=\"showIcons\"></span></a>\n                    <a href=\"https://www.instagram.com/nola_concrete_pumping/\" target=\"_blank\"><span mbr-icon class=\"icon2 mbr-iconfont socicon-instagram socicon\" mbr-if=\"showIcons\"></span></a>\n                    <img class=\"img1\" src=\"@PROJECT_PATH@/assets/images/nola-concrete-pump-rentals.jpeg\" alt=\"Nola Concrete Pumping Louisiana\" title=\"Nola Concrete Pumping Louisiana\">\n                    <img class=\"img2\" src=\"@PROJECT_PATH@/assets/images/nola-concrete-pumping-rentals-louisiana-1.png\" alt=\"Concrete Pumping Services Louisiana\" title=\"Concrete Pumping Services Louisiana\">\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"header3\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"5\" max=\"10\" step=\"1\" value=\"10\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Link\" name=\"showLink\" checked>\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\" checked>\n        <input type=\"color\" title=\"Icons Color\" name=\"iconsColor\" value=\"#2b3d68\" selected condition=\"showIcons\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#f1eeea\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container-fluid\">\n        <div class=\"row\">\n            <div class=\"col-lg-5 m-auto content md-pb\">\n\n                <h1 class=\"mbr-section-title align-left mbr-bold pb-4 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">NOLA<br>Concrete Pumping</h1>\n\n                <p class=\"mbr-text pb-4 align-left mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                    NOLA Concrete Pumping provides customers with the most experienced operators in the industry and safe, well-maintained equipment. We are also proud of our long list of satisfied customers</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-lg btn-info\" href=\"tel:+1-985-308-0141\" data-app-placeholder=\"Type Text\">CALL (985) 308-0141</a> <a class=\"btn btn-lg btn-success\" href=\"index.html#features03-1f\" data-app-placeholder=\"Type Text\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;BOOK NOW &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a></div>\n            </div>\n            <div class=\"col-lg-7\">\n                <div class=\"wrapper\">\n                    <h2 class=\"link title align-center mbr-black mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showLink\">&nbsp;RENTALS</h2>\n                    <a href=\"https://nola-concrete-pumping-llc.business.site/\" target=\"_blank\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-google socicon\" mbr-if=\"showIcons\"></span></a>\n                    <a href=\"https://www.instagram.com/nola_concrete_pumping/\" target=\"_blank\"><span mbr-icon class=\"icon2 mbr-iconfont socicon-instagram socicon\" mbr-if=\"showIcons\"></span></a>\n                    <img class=\"img1\" src=\"@PROJECT_PATH@/assets/images/nola-concrete-pump-rentals.jpeg\" alt=\"Nola Concrete Pumping Louisiana\" title=\"Nola Concrete Pumping Louisiana\">\n                    <img class=\"img2\" src=\"@PROJECT_PATH@/assets/images/nola-concrete-pumping-rentals-louisiana-1.png\" alt=\"Concrete Pumping Services Louisiana\" title=\"Concrete Pumping Services Louisiana\">\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_anchor": "header03-16",
           "_isUserblock": true,
           "_sourceTheme": "woodm4",
@@ -457,6 +457,101 @@
           "_isUserblock": true,
           "_sourceTheme": "woodm4",
           "_cid": "s1uUbTr2Ih",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = \"color\")": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = \"image\")": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@cardsAmount = \"4\")": {
+              ".container-fluid": {
+                "padding-left": "3rem !important",
+                "padding-right": "3rem !important"
+              },
+              ".card2": {
+                "padding-top": "2rem"
+              }
+            },
+            ".mbr-text": {
+              "color": "#121212"
+            },
+            "img": {
+              "border-radius": "50%"
+            },
+            ".card-number": {
+              "font-size": "150px !important",
+              "font-weight": "100 !important",
+              "color": "#ae3d3d"
+            },
+            ".card-box": {
+              ".awesome": {
+                "display": "inline-block",
+                "cursor": "pointer",
+                "margin-right": "20px",
+                "&:after": {
+                  "background-color": "currentColor",
+                  "display": "block",
+                  "content": "\"\"",
+                  "height": "2px",
+                  "width": "100%",
+                  "-webkit-transition": "width 0.3s ease-in-out",
+                  "-moz--transition": "width 0.3s ease-in-out",
+                  "transition": "width 0.3s ease-in-out",
+                  "margin-top": "5px"
+                },
+                "&:hover:after, &:focus:after": {
+                  "width": "0%"
+                }
+              }
+            },
+            ".upline": {
+              "padding-left": "55px",
+              "position": "relative",
+              "display": "inline-block",
+              ".line": {
+                "background-color": "@lineColor",
+                "height": "2px",
+                "left": "0",
+                "margin-top": "1px",
+                "position": "absolute",
+                "top": "50%",
+                "width": "34px"
+              }
+            },
+            "@media (max-width: 576px)": {
+              ".card-box": {
+                "text-align": "center"
+              },
+              ".card-number": {
+                "font-size": "100px !important"
+              }
+            },
+            "@media (max-width: 768px)": {
+              ".upline": {
+                "padding-left": "0",
+                ".line": {
+                  "display": "none"
+                }
+              },
+              ".awesome": {
+                "text-align": "center !important"
+              }
+            }
+          },
+          "_name": "features03",
+          "_customHTML": "<section class=\"features3\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Card Title\" name=\"showCardTitle\" checked>\n        <input type=\"checkbox\" title=\"Numbers\" name=\"showNumbers\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Link\" name=\"showLink\" checked>\n        <hr>\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n        </select>\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#212c3e\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/bakground3.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#9c9485\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container-fluid': fullWidth, 'container': !fullWidth }\">\n        <div class=\"row\">\n            <div class=\"col-12 col-md-12 align-center title\">\n                <h3 class=\"mbr-section-subtitle mb-5 mbr-fonts-style mbr-black mbr-regular upline align-top title\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".title\">Company\n                    Developing Process<span class=\"line\" mbr-if=\"showLine\"></span>\n                </h3>\n            </div>\n        </div>\n        <div class=\"row\">\n\n            <div class=\"col-12 col-md-6 \" mbr-class=\"{'col-lg-3': cardsAmount == '4', 'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card\" mbr-class=\"{'pr-3': cardsAmount == '4', 'pr-md-5': cardsAmount == '3'}\">\n                    <div class=\"row align-items-end\">\n                        <div class=\"col-sm-4 col-3\">\n                            <h1 class=\"card-number mbr-light mbr-fonts-style align-left\" mbr-theme-style=\"display-2\" mbr-if=\"showNumbers\" data-app-selector=\".card-number\">1</h1>\n                        </div>\n                        <div class=\"col-sm-8 col-8\">\n                            <img src=\"@PROJECT_PATH@/assets/images/nola-concrete-pumping.jpg\" alt class=\"mw-100\" title>\n                        </div>\n                        <div class=\"col-sm-12\">\n                            <div class=\"card-box pt-5 px-1 px-sm-1 px-md-2\">\n                                <h4 class=\"card-title py-3 mbr-regular mbr-fonts-style align-left\" mbr-theme-style=\"display-7\" mbr-if=\"showCardTitle\" data-app-selector=\".card-title\">\n                                    The\n                                    Merchant of Venice\n                                </h4>\n                                <p class=\"mbr-fonts-style align-left text\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".text\">\n                                    In sooth, I know not why I am so sad:\n                                    It wearies me; you say it wearies you;\n                                    But how I caught it, found it, or came by it,\n                                    What stuff 'tis made of, whereof it is born,\n                                    I am to learn;\n                                </p>\n                                <div class=\"mbr-section-btn\" mbr-buttons=\"true\" mbr-theme-style=\"display-4\" data-toolbar=\"mbrBtnMove,mbrBtnLink,mbrBtnAdd\" mbr-if=\"showLink\">\n                                    <a class=\"mbr-section-subtitle mbr-regular pb-3 pt-4 mbr-fonts-style awesome\" mbr-theme-style=\"display-7\" data-app-selector=\".card-box\" mbr-if=\"showLink\">\n                                        Discover more</a>\n                                </div>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"col-12 col-md-6\" mbr-if=\"cardsAmount > 1\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                        'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card card2\" mbr-class=\"{'pr-3': cardsAmount == '4', 'pr-md-5': cardsAmount == '3', 'mt-5': cardsAmount == '3'}\">\n                    <div class=\"row align-items-end\">\n                        <div class=\"col-sm-4 col-3\">\n                            <h1 class=\"card-number mbr-light mbr-fonts-style align-left\" mbr-theme-style=\"display-2\" mbr-if=\"showNumbers\" data-app-selector=\".card-number\">2</h1>\n                        </div>\n                        <div class=\"col-sm-8 col-8\">\n                            <img src=\"../_images/img/05.jpg\" alt class=\"mw-100\">\n                        </div>\n                        <div class=\"col-sm-12\">\n                            <div class=\"card-box pt-5 px-1 px-sm-1 px-md-2\">\n                                <h4 class=\"card-title py-3 mbr-regular mbr-fonts-style align-left\" mbr-theme-style=\"display-7\" mbr-if=\"showCardTitle\" data-app-selector=\".card-title\">\n                                    Belmont.\n                                    A room in PORTIA'S house.\n                                </h4>\n                                <p class=\"mbr-fonts-style align-left text\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".text\">\n                                    You would be, sweet madam, if your miseries were in\n                                    the same abundance as your good fortunes are: and\n                                    yet, for aught I see, they are as sick that surfeit\n                                    with too much as they that starve with nothing.\n                                </p>\n                                <div class=\"mbr-section-btn\" mbr-buttons=\"true\" mbr-theme-style=\"display-4\" data-toolbar=\"mbrBtnMove,mbrBtnLink,mbrBtnAdd\" mbr-if=\"showLink\">\n                                    <a class=\"mbr-section-subtitle mbr-regular pb-3 pt-4 mbr-fonts-style awesome\" mbr-theme-style=\"display-7\" data-app-selector=\".card-box\" mbr-if=\"showLink\">\n                                        Discover more</a>\n                                </div>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"col-12 col-md-6 mt-5 mt-md-0\" mbr-if=\"cardsAmount > 2\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                        'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card mt-2\" mbr-class=\"{'px-3': cardsAmount == '4'}\">\n                    <div class=\"row align-items-end\">\n                        <div class=\"col-sm-4 col-3\">\n                            <h1 class=\"card-number  mbr-regular mbr-fonts-style align-left\" mbr-theme-style=\"display-2\" mbr-if=\"showNumbers\" data-app-selector=\".card-number\">3</h1>\n                        </div>\n                        <div class=\"col-sm-8 col-8\">\n                            <img src=\"../_images/img/06.jpg\" alt class=\"mw-100\">\n                        </div>\n                        <div class=\"col-sm-12\">\n                            <div class=\"card-box pt-5 px-1 px-sm-1 px-md-2\">\n                                <h4 class=\"card-title py-3 mbr-regular mbr-fonts-style align-left\" mbr-theme-style=\"display-7\" mbr-if=\"showCardTitle\" data-app-selector=\".card-title\">\n                                    Paris.\n                                    The KING's palace.</h4>\n                                <p class=\"mbr-fonts-style align-left text\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".text\">\n                                    And I in going, madam, weep o'er my father's death\n                                    anew: but I must attend his majesty's command, to\n                                    whom I am now in ward, evermore in subjection.\n                                </p>\n                                <div class=\"mbr-section-btn\" mbr-buttons=\"true\" mbr-theme-style=\"display-4\" data-toolbar=\"mbrBtnMove,mbrBtnLink,mbrBtnAdd\" mbr-if=\"showLink\">\n                                    <a class=\"mbr-section-subtitle mbr-regular pb-3 pt-4 mbr-fonts-style awesome\" mbr-theme-style=\"display-7\" data-app-selector=\".card-box\" mbr-if=\"showLink\">\n                                        Discover more</a>\n                                </div>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"col-12 col-md-6 col-lg-3\" mbr-if=\"cardsAmount > 3\" mbr-class=\"{'col-lg-3': cardsAmount == '4'\">\n                <div class=\"card\" mbr-class=\"{'px-5': cardsAmount == '4'\">\n                    <div class=\"row align-items-end\">\n                        <div class=\"col-sm-4 col-3\">\n                            <h1 class=\"card-number mbr-regular mbr-fonts-style align-left\" mbr-theme-style=\"display-2\" mbr-if=\"showNumbers\" data-app-selector=\".card-number\">4</h1>\n                        </div>\n                        <div class=\"col-sm-8 col-8\">\n                            <img src=\"../_images/img/07.jpg\" alt class=\"mw-100\">\n                        </div>\n                        <div class=\"col-sm-12\">\n                            <div class=\"card-box pt-5 px-1 px-sm-1 px-md-2\">\n                                <h4 class=\"card-title py-3 mbr-regular mbr-fonts-style align-left\" mbr-theme-style=\"display-7\" mbr-if=\"showCardTitle\" data-app-selector=\".card-title\">\n                                    Rousillon. The COUNT's palace.\n                                </h4>\n                                <p class=\"mbr-fonts-style align-left text\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".text\">\n                                    The Florentines and Senoys are by the ears;\n                                    Have fought with equal fortune and continue\n                                    A braving war.\n                                </p>\n                                <div class=\"mbr-section-btn\" mbr-buttons=\"true\" mbr-theme-style=\"display-4\" data-toolbar=\"mbrBtnMove,mbrBtnLink,mbrBtnAdd\" mbr-if=\"showLink\">\n                                    <a class=\"mbr-section-subtitle mbr-regular pb-3 pt-4 mbr-fonts-style awesome\" mbr-theme-style=\"display-7\" data-app-selector=\".card-box\" mbr-if=\"showLink\">\n                                        Discover more</a>\n                                </div>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n\n</section>",
+          "_cid": "s1OdImIbJg",
+          "_anchor": "features03-1f",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
