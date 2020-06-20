@@ -1053,6 +1053,33 @@ blockquote {
 .cid-s1s6bGufBb .social-list mbr-list {
   color: #ffffff;
 }
+.cid-s2tgV8QuXH {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  background-image: url("../../../assets/images/background1.jpg");
+}
+.cid-s2tgV8QuXH .card-wrapper {
+  z-index: 3;
+}
+.cid-s2tgV8QuXH .card-wrapper .mbr-section-title {
+  letter-spacing: 1px;
+  transition: all 2.5s cubic-bezier(0, 0.74, 0.52, 1.2);
+}
+.cid-s2tgV8QuXH:hover .mbr-section-title {
+  letter-spacing: 10px;
+}
+.cid-s2tgV8QuXH .full-link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 0;
+  z-index: 2;
+}
+.cid-s2tgV8QuXH .popup-btn.card-wrapper {
+  z-index: 1 !important;
+}
 #instagram-feed-block-15 .inst__title {
   color: #2b3d68;
 }
