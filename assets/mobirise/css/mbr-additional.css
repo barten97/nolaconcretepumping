@@ -942,42 +942,6 @@ blockquote {
     width: 100%;
   }
 }
-.cid-s2orbWhqSL {
-  padding-top: 30px;
-  padding-bottom: 15px;
-  background-color: #ae3d3d;
-}
-.cid-s2orbWhqSL .mbr-text {
-  position: relative;
-  color: #444444;
-}
-.cid-s2orbWhqSL .mbr-text:before {
-  color: #ffffff;
-  content: "\201C";
-  font-size: 3em;
-  line-height: 0.1em;
-  margin-right: 0.2em;
-  vertical-align: -0.4em;
-  position: absolute;
-  top: 10px;
-  left: -2rem;
-}
-.cid-s2orbWhqSL .mbr-text:after {
-  color: #ffffff;
-  content: "\201D";
-  font-size: 3em;
-  line-height: 0.1em;
-  vertical-align: -0.45em;
-  position: absolute;
-  bottom: 10px;
-  right: -2rem;
-}
-@media (max-width: 767px) {
-  .cid-s2orbWhqSL .mbr-text:after,
-  .cid-s2orbWhqSL .mbr-text:before {
-    display: none;
-  }
-}
 .cid-s1s6bGufBb {
   padding-top: 0px;
   padding-bottom: 0px;
