@@ -565,6 +565,7 @@ blockquote {
 .jq-selectbox .jq-selectbox__trigger-arrow,
 .jq-number__spin.minus:after,
 .jq-number__spin.plus:after {
+  -webkit-transition: 0.4s;
   transition: 0.4s;
   border-top-color: currentColor;
   border-bottom-color: currentColor;
